@@ -1,1 +1,1 @@
-# yet-another-priject
+# yet-another-project
