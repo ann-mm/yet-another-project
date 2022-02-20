@@ -1,0 +1,21 @@
+.intro_margins {
+  margin: 92px 11.6vw;
+}
+
+@media screen and (max-width: 1024px)  {
+  .intro_margins {
+    margin: 92px 4.7vw;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .intro_margins {
+    margin: 88px 3.1vw;
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .intro_margins {
+    margin: 64px 5vw;
+  }
+}

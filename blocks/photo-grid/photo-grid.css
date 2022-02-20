@@ -1,0 +1,27 @@
+.photo-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25vw;
+}
+
+@media screen and (max-width: 1024px)  {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.37vw;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.1vw;
+  }
+}
+
+@media screen and (max-width: 320px)  {
+  .photo-grid {
+    grid-template-columns: calc(100vw - 5vw * 2);
+    gap: 3.75vw;
+  }
+}
