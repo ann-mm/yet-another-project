@@ -1,9 +1,0 @@
-.cover_margins {
-    margin: 0 auto;
-  }
-  
-@media screen and (max-width: 1024px)  {
-  .cover_margins {
-    margin: 0;
-  }
-}

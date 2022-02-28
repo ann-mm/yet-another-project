@@ -10,20 +10,20 @@
   margin: 0;
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 1em;
     margin: 0 0 25px;
   }
 }
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
   .place__paragraph {
     margin: 0 5vw 25px;
   }
 }
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
   .place__paragraph:last-child {
     margin: 0 5vw 0;
   }

@@ -2,11 +2,12 @@
   font-weight: 400;
   font-size: 0.75em;
   line-height: 1;
+  letter-spacing: 2px;
   margin: 0 0 16px;
-  color: #AAA;
+  color: #aaa;
 }
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
   .place__url-heading {
     margin: 0 5vw 16px;
   }

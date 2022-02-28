@@ -1,0 +1,15 @@
+.content__lead {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__lead {
+    margin: 0 4.7vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__lead {
+    margin: 0;
+  }
+}

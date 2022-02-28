@@ -3,25 +3,30 @@
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.25vw;
+  max-width: 1184px;
+  width: 100%;
 }
 
-@media screen and (max-width: 1024px)  {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.37vw;
+    width: calc(100% - 4.7vw * 2);
   }
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.1vw;
+    width: calc(100% - 3.1vw * 2);
   }
 }
 
-@media screen and (max-width: 320px)  {
+@media screen and (max-width: 320px) {
   .photo-grid {
-    grid-template-columns: calc(100vw - 5vw * 2);
+    grid-template-columns: 1fr;
     gap: 3.75vw;
+    width: calc(100% - 5vw * 2);
   }
 }

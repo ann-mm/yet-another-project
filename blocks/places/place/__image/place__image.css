@@ -4,7 +4,7 @@
   align-self: start;
 }
 
-@media screen and (max-width: 500px)  {
+@media screen and (max-width: 500px) {
   .place__image {
     margin: 0 0 32px;
   }
